@@ -3,7 +3,7 @@ const CosmosClient = require('@azure/cosmos').CosmosClient
 const debug = require('debug')('todo:taskDao')
 
 // For simplicity we'll set a constant partition key
-const partitionKey = '0'
+const partitionKey = undefined
 class TaskDao {
   /**
    * Manages reading, adding, and updating Tasks in Cosmos DB

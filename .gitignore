@@ -1,3 +1,9 @@
+# azure
+.azure/
+
+# Dockerfile
+Dockerfile
+
 # Logs
 logs
 *.log
